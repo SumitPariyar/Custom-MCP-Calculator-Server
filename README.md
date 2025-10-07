@@ -42,22 +42,6 @@ git clone https://github.com/your-username/mcp-math-chat.git
 cd mcp-math-chat
 
 
-Create a virtual environment
-
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Set up environment variables
-Create a .env file in the project root:
-
-GEMINI_API_KEY=YOUR_GOOGLE_GENIE_API_KEY
 
 Usage
 1. Run the MCP Math Server
@@ -101,6 +85,8 @@ Google Gemini AI: Processes user input, reasons about it, and uses the tools to 
 Streamlit: Provides a live, interactive web interface to chat with the math assistant.
 
 Project Structure
+
+
 mcp-math-chat/
 │
 ├── custom_mcp_server.py   # MCP server with math tools
@@ -108,6 +94,8 @@ mcp-math-chat/
 ├── .env                   # Environment variables (API keys)
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
+
+
 
 Notes
 
